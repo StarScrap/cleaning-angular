@@ -1,0 +1,103 @@
+<!--Header--------------------------------------------------------->
+<header class="head_block">
+
+    <div class="head_row">
+      <div class="head_logo_row">   
+          <img class="head_logo" src="../../assets/logo_white.png" width="100%">
+      </div>  
+      <div class="head_item">
+        <div class="head_text">
+          <p class="head_p">
+            Зробимо кузов <b>блискучим</b>, <br>
+            салон <b>чистим</b>, <br> 
+            <b>видалимо</b> подряпини і вм'ятини 
+          </p>
+        </div>
+      </div>
+      <div class="head_item">
+        <div class="head_button_div">
+          <button class="head_button">НАШІ ПОСЛУГИ</button> 
+        </div>  
+      </div>
+    </div>  
+
+</header>
+
+<!--Burger_menu--------------------------------------------------------->
+<ng-container *ngIf="menu; then editOn; else editOff"></ng-container>
+<ng-template #editOff>
+    <button class="ham" (click)="switchMenu()">
+    <span class="menuIcon material-icons">
+        menu
+    </span>
+    </button>
+</ng-template>
+<ng-template #editOn>
+    <button class="cross" (click)="switchMenu()">
+    <span class="xIcon material-icons">
+        close
+    </span>
+    </button>
+</ng-template>
+<div class="menu" *ngIf="menu">
+  <div class="menu_logo_row">   
+    <img class="menu_logo" src="../../assets/logo_white.png" width="100%">
+  </div>  
+  <div class="menu_block">
+    <ul class="menuItems">
+        <li><a class="menuLink" href="#">Головна</a></li>
+        <li><a class="menuLink" href="#">Наші послуги</a></li>
+        <li><a class="menuLink" href="#">Переваги</a></li>
+        <li><a class="menuLink" href="#">Сертифікати</a></li>
+        <li><a class="menuLink" href="#">Контакти</a></li>
+    </ul>
+  </div>
+  <!--Footer--------------------------------------------------------->
+
+<footer class="footer_block">
+
+  <div class="footer_row">
+
+    <div class="footer_colum">
+      <div class="footer_item">
+        <div class="phone_namber">
+        <h6 class="footer_phone">Телефон <br>
+        (093) 760 22 36</h6>
+        </div>
+      </div>  
+    </div>
+  
+    <div class="footer_colum">
+      <div class="footer_item">
+        <div class="mail">
+        <h6 class="footer_mail">Електронна адреса <br>
+        Testkinggoodlol@hmail.com</h6>
+        </div>
+      </div>  
+    </div>
+
+    <div class="footer_colum">
+      <div class="footer_item">
+        <div class="social_media">
+        <h6>Соціальні мережі</h6>
+        <h6><a href="http://instagram.com">Instagram</a>/<a href="http://facebook.com">Facebook</a></h6>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer_colum">
+      <div class="footer_item">
+        <div class="messengers">
+        <h6>Мессенджери</h6>
+        <h6><a href="http://web.telegram.org">Telegram</a>/<a href="http://viber.com">Viber</a></h6>
+        </div>
+      </div>  
+    </div>
+
+  </div>
+
+</footer>
+</div>
+
+
+

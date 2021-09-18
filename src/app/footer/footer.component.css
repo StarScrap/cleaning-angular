@@ -1,0 +1,86 @@
+/*Footer-----------------------------------------------*/
+
+.footer_block{
+    color: #666666;
+}
+
+.footer_logo{
+    width: 225px;
+    height: 76px;
+    padding-left: 160.5px;
+}
+
+.footer_br{
+    display: flex;
+    justify-content: center;
+    margin-left: 159px;
+    width: 960px;
+
+    background: #000000;
+}
+
+.footer_row{
+    display: flex;
+    flex-direction: row;
+    height: 92px;
+}
+
+.footer_colum{
+    display: flex;
+    flex-direction: column;
+}
+
+.social_media hr{
+    width: 87px;
+    background: #EAEAEA;
+    display: block;
+}
+
+.messengers hr{
+    width: 69px;
+    background: #EAEAEA;
+    display: block;
+}
+
+.social_media{
+display: flex;
+flex-direction: column;
+padding-left: 20px;
+padding-top: 11px;
+}
+
+.messengers{
+    display: flex;
+    flex-direction: column;
+    padding-left: 74px;
+    padding-top: 11px;
+}
+
+.mail{
+    display: flex;
+    flex-direction: column;
+    padding-left: 91px;
+    padding-top: 15px;
+}
+
+.phone_namber{
+    display: flex;
+    flex-direction: column;
+    padding-left: 106px;
+    padding-top: 17px;
+}
+
+.copyright{
+    font-style: italic;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 145%;
+
+    letter-spacing: 0.045em;
+
+    color: #7B7B7B;
+
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4px;
+}

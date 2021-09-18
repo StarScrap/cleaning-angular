@@ -1,0 +1,65 @@
+<!--Переваги--------------------------------------------------------->
+
+<section class="benefits_block">
+
+  <div class="carousel_row">
+
+    <div class="carousel_column">
+      <div class="benefits_item">
+        <h2>Переваги</h2>
+        <p class="bene_p">
+            Наш досвід і репутація - це <br> 
+            найголовніше, але є ще кілька <br> 
+            важливих моментів
+        </p>
+      </div>
+    </div>
+    </div>
+
+    <div class="carousel">
+
+      <div class="carousel_row">
+        <div class="carousel_content">
+          <img class="carousel_img" src="{{getImage()}}" alt="slide">
+        </div>
+        <div class="carousel_content">
+       <div class="carousel_column">
+          <h3 class="carousel_h">{{getTitle()}}</h3>
+          <p class="corousel_p">{{getDescription()}}</p>
+        </div>
+      </div>
+      </div>
+      <div class="carousel_button_row">
+    <div class="button_column">
+    <div class="prev">
+     <button class="prev_batton" (click)="getPrev()">
+        <span class="material-icons">
+        chevron_left
+        </span>
+    </button>
+    </div>
+  </div>
+  <div class="button_column">
+    <div class="starus_item">
+      <span class="status_number">{{i+1}}</span>
+      <div class="status_posetion">
+      </div>
+    <div class="status">
+    </div>
+    </div>
+  </div>
+    
+  <div class="button_column">
+    <div class="next">
+     <button class="next_button" (click)='getNext()'>
+        <span class="material-icons">
+        chevron_right
+        </span>
+     </button>
+    </div>
+  </div>
+  </div>
+  </div>
+  </section>
+
+  

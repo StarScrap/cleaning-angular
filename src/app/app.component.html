@@ -1,46 +1,6 @@
 <!--Header--------------------------------------------------------->
 
-<header class="head_block">
-
-    <div class="head_row">
-      <div class="head_logo_row">   
-          <img class="head_logo" src="../assets/logo_white.png" width="100%">
-      </div>  
-      <div class="head_item">
-        <div class="head_text">
-          <p class="head_p">
-            Зробимо кузов <b>блискучим</b>, <br>
-            салон <b>чистим</b>, <br> 
-            <b>видалимо</b> подряпини і вм'ятини 
-          </p>
-        </div>
-      </div>
-      <div class="head_item">
-        <div class="head_button_div">
-          <button class="head_button">НАШІ ПОСЛУГИ</button> 
-        </div>  
-      </div>
-    </div>  
-
-</header>
-
-<!--Burger_menu--------------------------------------------------------->
-
-<button class="ham">
-  <span class="menuIcon material-icons">
-    menu
-  </span>
-  <span class="xIcon material-icons">
-    close
-  </span>
-</button>
-<ul class="menu">
-  <li><a class="menuLink" href="#">Головна</a></li>
-  <li><a class="menuLink" href="#">Наші послуги</a></li>
-  <li><a class="menuLink" href="#">Переваги</a></li>
-  <li><a class="menuLink" href="#">Сертифікати</a></li>
-  <li><a class="menuLink" href="#">Контакти</a></li>
-</ul>
+<app-header></app-header>
 
 <!--Наші послуги--------------------------------------------------------->
 
@@ -102,20 +62,7 @@
 
 <!--Переваги--------------------------------------------------------->
 
-<section class="benefits_block">
-
-  <div class="benefits_colum">
-    <div class="benefits_item">
-      <h2>Переваги</h2>
-      <p class="bene_p">
-          Наш досвід і репутація - це <br> 
-          найголовніше, але є ще кілька <br> 
-          важливих моментів
-      </p>
-    </div>
-  </div>
-
-</section>
+<app-carousel></app-carousel>
 
 <!--Інстаграм--------------------------------------------------------->
 
@@ -205,65 +152,4 @@
 
 <!--Footer--------------------------------------------------------->
 
-<footer class="footer_block">
-
-  <div class="footer_br_div">
-    <hr class="footer_br">
-  </div> 
-
-  <div class="footer_row">
-
-    <div class="footer_colum">   
-      <img class="footer_logo" src="../assets/logo_dark.png" width="100%">
-    </div>
-
-    <div class="footer_colum">
-      <div class="footer_item">
-        <div class="social_media">
-        <h6>Соціальні мережі</h6>
-        <hr>
-        <h6><a href="http://instagram.com">Instagram</a></h6>
-        <h6><a href="http://facebook.com">Facebook</a></h6>
-        </div>
-      </div>
-    </div>
-
-    <div class="footer_colum">
-      <div class="footer_item">
-        <div class="messengers">
-        <h6>Мессенджери</h6>
-        <hr>
-        <h6><a href="http://web.telegram.org">Telegram</a></h6>
-        <h6><a href="http://viber.com">Viber</a></h6>
-        </div>
-      </div>  
-    </div>
-
-    <div class="footer_colum">
-      <div class="footer_item">
-        <div class="mail">
-        <h6 class="footer_mail">Електронна адреса <br>
-        Testkinggoodlol@hmail.com</h6>
-        </div>
-      </div>  
-    </div>
-
-    <div class="footer_colum">
-      <div class="footer_item">
-        <div class="phone_namber">
-        <h6 class="footer_phone">Телефон <br>
-        (093) 760 22 36</h6>
-        </div>
-      </div>  
-    </div>
-
-  </div>
-
-  <div class="copyright">
-    <p class="copyright">&copy; 2021 FEDULOV DETAILING Studio - Всі права захищені. </p>
-  </div>  
-
-
-</footer>
-
-<script src="../assets/burger_menu.js"></script>
+<app-footer></app-footer>
